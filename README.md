@@ -1,21 +1,21 @@
-# 🧠 COOL Compiler – CPL Homework
+# COOL Compiler – CPL Homework
 
-**Author:** Gabriel Rizan  
+**Author:** Florescu Cosmin-Mihai
 **Course:** Compilers and Programming Languages (CPL)  
-**Language:** COOL (Classroom Object-Oriented Language)  
+**Language:** Java, COOL (Classroom Object-Oriented Language)  
 **Target Architecture:** MIPS  
 **Simulator:** QtSpim
 
 ---
 
-## 📚 Project Description
+## Project Description
 
 This repository contains the step-by-step implementation of a **COOL compiler**, developed for the **CPL course**.  
 The compiler generates **MIPS assembly code**, which can be executed using the **QtSpim** simulator along with the COOL runtime.
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 The compiler was developed in 4 milestones:
 
@@ -46,19 +46,5 @@ The compiler was developed in 4 milestones:
 - **StringTemplate 4**
 - **QtSpim**
 - **COOL Runtime**
-
----
-
-## ▶️ How to Run
-
-1. Generate the MIPS `.s` file using the compiler.
-2. Open **QtSpim**.
-3. Load the **COOL runtime**.
-4. Load your `.s` file.
-5. Run the program and observe the output.
-
----
-
-## 📂 Repository Layout
 
 
