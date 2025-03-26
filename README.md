@@ -1,2 +1,64 @@
-# COOL-Compiler---Java
-Java - Cool Compiler
+# 🧠 COOL Compiler – CPL Homework
+
+**Author:** Gabriel Rizan  
+**Course:** Compilers and Programming Languages (CPL)  
+**Language:** COOL (Classroom Object-Oriented Language)  
+**Target Architecture:** MIPS  
+**Simulator:** QtSpim
+
+---
+
+## 📚 Project Description
+
+This repository contains the step-by-step implementation of a **COOL compiler**, developed for the **CPL course**.  
+The compiler generates **MIPS assembly code**, which can be executed using the **QtSpim** simulator along with the COOL runtime.
+
+---
+
+## 🧱 Project Structure
+
+The compiler was developed in 4 milestones:
+
+### ✅ tema 0 – COOL Lists
+> Implemented custom list structures in the COOL language.
+
+### ✅ tema 1 – Lexical & Syntax Analysis
+> - Built with **ANTLR4**  
+> - Written in **Java**  
+> - Converts source code into an Abstract Syntax Tree (AST)
+
+### ✅ tema 2 – Semantic Analysis
+> - Validates the AST  
+> - Type checking, inheritance validation, and semantic rule enforcement  
+> - Implemented in **Java**
+
+### ✅ tema 3 – Code Generation
+> - Uses **StringTemplate** and **Java**  
+> - Translates the AST into MIPS assembly code  
+> - Compatible with **QtSpim** and the COOL runtime
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java 11+**
+- **ANTLR4**
+- **StringTemplate 4**
+- **QtSpim**
+- **COOL Runtime**
+
+---
+
+## ▶️ How to Run
+
+1. Generate the MIPS `.s` file using the compiler.
+2. Open **QtSpim**.
+3. Load the **COOL runtime**.
+4. Load your `.s` file.
+5. Run the program and observe the output.
+
+---
+
+## 📂 Repository Layout
+
+
